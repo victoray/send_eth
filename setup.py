@@ -4,8 +4,8 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setuptools.setup(
-     name='send_eth_run',
-     version='1.0',
+     name='send_eth',
+     version='2.1',
      scripts=['send_eth_run'] ,
      author="Victor A",
      author_email="viktoray007@gmail.com",

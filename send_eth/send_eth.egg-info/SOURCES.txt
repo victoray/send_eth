@@ -1,0 +1,7 @@
+README.md
+send_eth
+setup.py
+send_eth.egg-info/PKG-INFO
+send_eth.egg-info/SOURCES.txt
+send_eth.egg-info/dependency_links.txt
+send_eth.egg-info/top_level.txt

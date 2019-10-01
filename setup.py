@@ -5,15 +5,18 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
      name='send_eth',
-     version='2.1',
-     scripts=['send_eth_run'] ,
+     version='10.0',
      author="Victor A",
      author_email="viktoray007@gmail.com",
      description="An ethereum mass sending package",
      long_description=long_description,
      long_description_content_type="text/markdown",
      url="https://github.com/victoray/send_eth/",
-     packages=setuptools.find_packages(),
+     packages=['send_eth'],
+     install_requires=[
+          'web3',
+          'blocksmith',
+      ],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",

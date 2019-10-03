@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
      name='send_eth',
-     version='10.0',
+     version='10.1',
      author="Victor A",
      author_email="viktoray007@gmail.com",
      description="An ethereum mass sending package",
